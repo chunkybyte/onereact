@@ -14,13 +14,15 @@ app.use(webpackDevMiddleware(compiler, {
         publicPath:'/',
         stats:{
             color:true,
-        }
-        historyApiFallback:true,
+        },
+        historyApiFallback:true
     }
 ));
 
 const server = app.listen(3000, function(){
     const host = server.address().address;
     const port = server.address().port;
-    console.log("Example app listening at http://" + host + ":" + port);
+    console.log("Example app listening at http://",host,":",port);
+    console.log("Host :",host);
+    console.log("Port :",port);
 });

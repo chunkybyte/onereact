@@ -6,3 +6,4 @@ Setting up the project.
 npm start
 npm install
 COMPILE : npm run compile
+To START the development server : npm start
