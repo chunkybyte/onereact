@@ -4,7 +4,9 @@
   "description": "Not the First Application - REACT",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start" : "node server.js"
   },
   "keywords": [],
   "author": "Ekansh Kothiyal",
@@ -14,6 +16,8 @@
     "babel-loader": "^7.1.2",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^3.5.6"
+    "express": "^4.15.4",
+    "webpack": "^3.5.6",
+    "webpack-dev-middleware": "^1.12.0"
   }
 }

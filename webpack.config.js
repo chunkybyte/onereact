@@ -1,12 +1,12 @@
 const path = require('path');
 
 module.exports = {
-    context: path.join(_dirname, 'src'),
+    context: path.join(__dirname, 'src'),
     entry: [
         './main.js',
     ],
     output: {
-        path: path.join(_dirname, 'www'),
+        path: path.join(__dirname, 'www'),
         filename: 'bundle.js'
     },
     module:{
@@ -25,7 +25,7 @@ module.exports = {
     },
     resolve: {
         modules: [
-            path.join(_dirname, 'node_modules')
+            path.join(__dirname, 'node_modules')
         ]
     },
     watch: false

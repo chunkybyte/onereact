@@ -4,3 +4,5 @@ Its actually embarassing to see how much time it is taking for me to get a grasp
 
 Setting up the project.
 npm start
+npm install
+COMPILE : npm run compile
