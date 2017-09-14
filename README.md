@@ -1,9 +1,9 @@
-Not the First Application - REACT
+The React Starter Application - Serves as a skeleton for future developments
 
-Its actually embarassing to see how much time it is taking for me to get a grasp on the technology. I shouldn't be this lame.
+Disclaimer : Created with the help from andrewhfarmer.com/build-your-own-starter
 
-Setting up the project.
-npm start
-npm install
-COMPILE : npm run compile
+Setting up the project 
+TO COMPILE the Webpack bundle.js : npm run compile
+(Could lead to issues if not run explicitly after making changes)
+
 To START the development server : npm start
